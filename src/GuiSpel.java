@@ -10,13 +10,14 @@ public class GuiSpel extends JFrame implements ActionListener {
 
     public GuiSpel() {
         panel.setLayout(new GridLayout(4,4));
+        this.createButtons();
 
         add(panel,BorderLayout.NORTH);
         setVisible(true);
         setSize(500,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        this.createButtons();
+        this.pack();
     }
     public void createButtons(){
         for(int n = 1; n <= 15; n++){
