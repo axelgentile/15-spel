@@ -18,6 +18,7 @@ public class GuiSpel extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         this.pack();
+        System.out.println("axel test");
     }
     public void createButtons(){
         for(int n = 1; n <= 15; n++){
